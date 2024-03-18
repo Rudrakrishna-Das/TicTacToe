@@ -1,0 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Quando&family=Truculenta:opsz,wght@12..72,100..900&display=swap");
+body {
+  background: url("../images/923.jpg") center center;
+  background-size: cover;
+  text-align: center;
+  font-family: "Quando", serif;
+}

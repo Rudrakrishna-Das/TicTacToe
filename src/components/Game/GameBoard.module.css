@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Quando&family=Truculenta:opsz,wght@12..72,100..900&display=swap");
+.board {
+  padding: 0;
+  width: 50%;
+  margin: 15px auto;
+  z-index: 1;
+}
+.board ol {
+  padding: 0;
+}
+.board li ol {
+  display: flex;
+}
+
+.board li {
+  list-style: none;
+}
+
+.board button {
+  width: 4rem;
+  height: 4rem;
+  margin: 10px;
+  background-color: rgb(153, 111, 19);
+  border: none;
+  cursor: pointer;
+  font-size: 50px;
+  font-family: "Quando", serif;
+}
+.board button:disabled {
+  color: rgb(43, 30, 1);
+}
