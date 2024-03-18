@@ -1,10 +1,10 @@
 import Classes from "./App.module.css";
-import Players from "/components/Players/Players";
-import GameBoard from "/components/Game/GameBoard";
+import Players from "./components/Players/Players";
+import GameBoard from "./components/Game/GameBoard";
 import { useState } from "react";
-import Logs from "/components/Logs/Logs";
+import Logs from "./components/Logs/Logs";
 import { WINNING_COMBINATIONS } from "./winning-combinations";
-import GameOver from "/components/GameOver/GameOver";
+import GameOver from "./components/GameOver/GameOver";
 
 const board = [
   [null, null, null],
